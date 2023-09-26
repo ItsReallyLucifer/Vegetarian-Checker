@@ -1,0 +1,83 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+
+/* __________________________________ */
+
+  body {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 150vh;
+    /* background: linear-gradient(lightblue, white); */
+    background: url(../img/vegan2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+  }
+
+  input {
+    width: 200px;
+  }
+
+  button {
+    margin: 20px auto;
+    display: block;
+  }
+
+  img {
+    max-height: 300px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-size: 26px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    color: #000000; /* Set the text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+  }
+
+  table {
+    margin: 20px auto;
+  }
+
+  table, th, td {
+    border: 1px solid;
+    background-color: white;
+  }
+
+
+.non-veg-item {
+  background-color: rgb(255, 69, 69);
+}
+
+.unknown-maybe-item {
+  background-color: rgb(247, 247, 113);
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 45px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the text bold */
+  color: #333; /* Set the text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+}

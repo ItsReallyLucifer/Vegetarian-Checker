@@ -4,6 +4,8 @@
 
 The **Vegetarian Food Checker** is a handy application designed to help users determine whether a food product is vegetarian-friendly or not. Users can enter a UPC barcode number (12 digits), and the application provides a list of ingredients, highlighting each ingredient's vegetarian status as "Yes," "No," or "Maybe."
 
+<img src=https://github.com/ItsReallyLucifer/Vegetarian-Checker/blob/5356cecf74fc45bf3e2920b4c41d1f5a393fb3ad/vegeStatic.png >
+
 ## Features
 
 - **Barcode Scanner**: Easily scan and enter a 12-digit UPC barcode number from food packaging.
